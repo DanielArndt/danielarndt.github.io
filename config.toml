@@ -82,6 +82,22 @@ gzip = true
     name = "Categories"
     url = "/categories/"
     title = ""
+  [[menu.main]]
+    weight = 4
+    identifier = "about"
+    pre = ""
+    post = ""
+    name = "About"
+    url = "/about/"
+    title = ""
+  [[menu.main]]
+    weight = 5
+    identifier = "pages"
+    pre = ""
+    post = ""
+    name = "Pages"
+    url = "/pages/"
+    title = ""
 
 [params]
   # site default theme ["auto", "light", "dark"]
