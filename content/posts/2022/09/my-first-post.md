@@ -5,5 +5,4 @@ tags: ["meta"]
 categories: []
 ---
 
-This is my first post to my website. 
-
+This is my first post to my website.
