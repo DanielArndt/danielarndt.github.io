@@ -190,7 +190,7 @@ gzip = true
 
   # Search config
   [params.search]
-    enable = true
+    enable = false
     # type of search engine ["lunr", "algolia"]
     type = "algolia"
     # max index length of the chunked content
