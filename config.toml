@@ -206,13 +206,13 @@ gzip = true
       # URL of avatar shown in home page
       avatarURL = "/images/avatar.jpg"
       # title shown in home page (HTML format is supported)
-      title = ""
+      title = "Daniel Arndt"
       # subtitle shown in home page (HTML format is supported)
-      subtitle = "My website"
+      subtitle = "Some things I decided to put on the Internet, for some reason."
       # whether to use typeit animation for subtitle
       typeit = false
       # whether to show social links
-      social = false
+      social = true
       # disclaimer (HTML format is supported)
       disclaimer = ""
     # Home page posts
@@ -223,7 +223,7 @@ gzip = true
   # Social config in home page
   [params.social]
     GitHub = "DanielArndt"
-    Linkedin = ""
+    Linkedin = "danieljarndt"
     Twitter = ""
     Instagram = ""
     Facebook = ""
@@ -232,7 +232,7 @@ gzip = true
     Gitlab = ""
     Youtubelegacy = ""
     Youtubecustom = ""
-    Youtubechannel = ""
+    Youtubechannel = "UCIOptO7PPbkFX8h-eMvyvlQ"
     Tumblr = ""
     Quora = ""
     Keybase = ""
@@ -241,7 +241,7 @@ gzip = true
     Codepen = ""
     FreeCodeCamp = ""
     Bitbucket = ""
-    Stackoverflow = ""
+    Stackoverflow = "528706"
     Weibo = ""
     Odnoklassniki = ""
     VK = ""
@@ -275,7 +275,7 @@ gzip = true
     Dribbble = ""
     Wordpress = ""
     Vine = ""
-    Googlescholar = ""
+    Googlescholar = "jDXmuBIAAAAJ"
     Researchgate = ""
     Mastodon = ""
     Thingiverse = ""
@@ -632,106 +632,106 @@ gzip = true
   taxonomyTerm = ["HTML"]
 
 # Multilingual
-[languages]
-  [languages.en]
-    weight = 1
-    languageCode = "en"
-    languageName = "English"
-    hasCJKLanguage = false
-    copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
-    [languages.en.menu]
-      [[languages.en.menu.main]]
-        weight = 1
-        identifier = "posts"
-        pre = ""
-        post = ""
-        name = "Posts"
-        url = "/posts/"
-        title = ""
-      [[languages.en.menu.main]]
-        weight = 2
-        identifier = "tags"
-        pre = ""
-        post = ""
-        name = "Tags"
-        url = "/tags/"
-        title = ""
-      [[languages.en.menu.main]]
-        weight = 3
-        identifier = "categories"
-        pre = ""
-        post = ""
-        name = "Categories"
-        url = "/categories/"
-        title = ""
-    #   [[languages.en.menu.main]]
-    #     weight = 4
-    #     identifier = "documentation"
-    #     pre = ""
-    #     post = ""
-    #     name = "Docs"
-    #     url = "/categories/documentation/"
-    #     title = ""
-      [[languages.en.menu.main]]
-        weight = 5
-        identifier = "about"
-        pre = ""
-        post = ""
-        name = "About"
-        url = "/about/"
-        title = ""
-    #   [[languages.en.menu.main]]
-    #     weight = 6
-    #     identifier = "github"
-    #     pre = "<i class='fab fa-github fa-fw' aria-hidden='true'></i>"
-    #     post = ""
-    #     name = ""
-    #     url = "https://github.com/DanielArndt"
-    #     title = "GitHub"
-      [[languages.en.menu.main]]
-        weight = 7
-        identifier = "pages"
-        pre = ""
-        post = ""
-        name = "Pages"
-        url = "/pages/"
-        title = ""
-    [languages.en.params]
-      [languages.en.params.search]
-        # TODO: Enable search
-        enable = false
-        type = "algolia"
-        contentLength = 4000
-        placeholder = ""
-        maxResultLength = 10
-        snippetLength = 30
-        highlightTag = "em"
-        absoluteURL = false
-        [languages.en.params.search.algolia]
-          index = "index.en"
-          appID = ""
-          searchKey = ""
-      [languages.en.params.home]
-        rss = 10
-        [languages.en.params.home.profile]
-          enable = true
-          gravatarEmail = "danielarndt@gmail.com"
-          avatarURL = "/images/avatar.jpg"
-          title = ""
-          subtitle = "Welcome!"
-          typeit = false
-          social = true
-          disclaimer = ""
-      [languages.en.params.social]
-        GitHub = "DanielArndt"
-        Twitter = ""
-        Instagram = ""
-        Facebook = ""
-        Telegram = ""
-        Youtubelegacy = ""
-        Phone = ""
-        Email = "dan@arndt.ca"
-        RSS = true
-        # [languages.en.params.social.Mastodon]
-        #   id = ""
-        #   prefix = "https://mastodon.technology/"
+# [languages]
+#   [languages.en]
+#     weight = 1
+#     languageCode = "en"
+#     languageName = "English"
+#     hasCJKLanguage = false
+#     copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
+#     [languages.en.menu]
+#       [[languages.en.menu.main]]
+#         weight = 1
+#         identifier = "posts"
+#         pre = ""
+#         post = ""
+#         name = "Posts"
+#         url = "/posts/"
+#         title = ""
+#       [[languages.en.menu.main]]
+#         weight = 2
+#         identifier = "tags"
+#         pre = ""
+#         post = ""
+#         name = "Tags"
+#         url = "/tags/"
+#         title = ""
+#       [[languages.en.menu.main]]
+#         weight = 3
+#         identifier = "categories"
+#         pre = ""
+#         post = ""
+#         name = "Categories"
+#         url = "/categories/"
+#         title = ""
+#     #   [[languages.en.menu.main]]
+#     #     weight = 4
+#     #     identifier = "documentation"
+#     #     pre = ""
+#     #     post = ""
+#     #     name = "Docs"
+#     #     url = "/categories/documentation/"
+#     #     title = ""
+#       [[languages.en.menu.main]]
+#         weight = 5
+#         identifier = "about"
+#         pre = ""
+#         post = ""
+#         name = "About"
+#         url = "/about/"
+#         title = ""
+#     #   [[languages.en.menu.main]]
+#     #     weight = 6
+#     #     identifier = "github"
+#     #     pre = "<i class='fab fa-github fa-fw' aria-hidden='true'></i>"
+#     #     post = ""
+#     #     name = ""
+#     #     url = "https://github.com/DanielArndt"
+#     #     title = "GitHub"
+#       [[languages.en.menu.main]]
+#         weight = 7
+#         identifier = "pages"
+#         pre = ""
+#         post = ""
+#         name = "Pages"
+#         url = "/pages/"
+#         title = ""
+#     [languages.en.params]
+#       [languages.en.params.search]
+#         # TODO: Enable search
+#         enable = false
+#         type = "algolia"
+#         contentLength = 4000
+#         placeholder = ""
+#         maxResultLength = 10
+#         snippetLength = 30
+#         highlightTag = "em"
+#         absoluteURL = false
+#         [languages.en.params.search.algolia]
+#           index = "index.en"
+#           appID = ""
+#           searchKey = ""
+#       [languages.en.params.home]
+#         rss = 10
+#         [languages.en.params.home.profile]
+#           enable = true
+#           gravatarEmail = "danielarndt@gmail.com"
+#           avatarURL = "/images/avatar.jpg"
+#           title = ""
+#           subtitle = "Welcome!"
+#           typeit = false
+#           social = true
+#           disclaimer = ""
+#       [languages.en.params.social]
+#         GitHub = "DanielArndt"
+#         Twitter = ""
+#         Instagram = ""
+#         Facebook = ""
+#         Telegram = ""
+#         Youtubelegacy = ""
+#         Phone = ""
+#         Email = "dan@arndt.ca"
+#         RSS = true
+#         # [languages.en.params.social.Mastodon]
+#         #   id = ""
+#         #   prefix = "https://mastodon.technology/"
