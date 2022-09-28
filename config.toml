@@ -312,6 +312,7 @@ gzip = true
     RootMe= ""
     Email = "dan@arndt.ca"
     RSS = ""
+    Printables = "171889-dantrimental"
 
   # Page global config
   [params.page]
