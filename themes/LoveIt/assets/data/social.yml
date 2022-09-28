@@ -569,6 +569,14 @@ rootme:
   Icon:
     Src: svg/icons/rootme.svg
 
+# Printables
+printables:
+  Weight: 73
+  Template: https://www.printables.com/social/%v/models
+  Title: Printables
+  Icon:
+    Src: svg/icons/printables.svg
+
 # Phone
 phone:
   Weight: 98
