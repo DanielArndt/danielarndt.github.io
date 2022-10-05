@@ -1,7 +1,6 @@
 ---
 title: "Enable Wayland support on Chrome / Brave Browser"
 date: 2022-10-05
-draft: true
 ---
 
 <script src="/copy-to-clipboard.js"></script>
