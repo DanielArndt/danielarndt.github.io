@@ -1,0 +1,4 @@
+<script src="/copy-to-clipboard.js"></script>
+<link rel="stylesheet" href="/tooltip.css">
+
+<a id="{{.Get `id`}}-text"><code>{{.Inner}}</code></a><span class="tooltip"><span class="tooltiptext" id="{{.Get `id`}}-tooltip">Copy to clipboard</span><i class="fa fa-clipboard" style="font-size:12px; cursor:pointer;" onclick="copyToClipboard('{{.Get `id`}}-text', '{{.Get `id`}}-tooltip')" onmouseout="tooltipReset('{{.Get `id`}}-tooltip')"></i></span>
