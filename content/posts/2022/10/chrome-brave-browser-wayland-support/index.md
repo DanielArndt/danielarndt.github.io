@@ -10,4 +10,5 @@ If you get blurry windows with Chrome or Brave, and you’re using Wayland (the 
 
 Just head to <a id="flag-text">`chrome://flags/#ozone-platform-hint`</a><span class="tooltip"><span class="tooltiptext" id="flag-tooltip">Copy to clipboard</span><i class="fa fa-clipboard" style="font-size:12px; cursor:pointer;" onclick="copyToClipboard('flag-text', 'flag-tooltip')" onmouseout="tooltipReset('flag-tooltip')"></i></span> and change the drop down value to `auto`.
 
-![ozone-flag](ozone-flag.png)
+{{< figure src="ozone-flag.png" alt="ozone flag screenshot" caption="Screenshot of the Ozone platform hint browser flag" >}}
+
