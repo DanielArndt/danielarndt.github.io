@@ -57,6 +57,22 @@ gzip = true
 [menu]
   [[menu.main]]
     weight = 1
+    identifier = "about"
+    pre = ""
+    post = ""
+    name = "About Me"
+    url = "/about/"
+    title = ""
+  [[menu.main]]
+    weight = 3
+    identifier = "pages"
+    pre = ""
+    post = ""
+    name = "Pages"
+    url = "/pages/"
+    title = ""
+  [[menu.main]]
+    weight = 2
     identifier = "posts"
     # you can add extra information before the name (HTML format is supported), such as icons
     pre = ""
@@ -67,7 +83,7 @@ gzip = true
     # title will be shown when you hover on this menu link
     title = ""
   [[menu.main]]
-    weight = 2
+    weight = 4
     identifier = "tags"
     pre = ""
     post = ""
@@ -75,28 +91,12 @@ gzip = true
     url = "/tags/"
     title = ""
   [[menu.main]]
-    weight = 3
+    weight = 5
     identifier = "categories"
     pre = ""
     post = ""
     name = "Categories"
     url = "/categories/"
-    title = ""
-  [[menu.main]]
-    weight = 4
-    identifier = "about"
-    pre = ""
-    post = ""
-    name = "About"
-    url = "/about/"
-    title = ""
-  [[menu.main]]
-    weight = 5
-    identifier = "pages"
-    pre = ""
-    post = ""
-    name = "Pages"
-    url = "/pages/"
     title = ""
 
 [params]
