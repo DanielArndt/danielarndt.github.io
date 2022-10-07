@@ -4,7 +4,8 @@
 
 {{- define "content" -}}
     {{- $params := .Scratch.Get "params" -}}
-    <div class="page archive">
+    <!-- Adding class altcolor changes the links in the content section to be the same color as on other pages -->
+    <div class="page archive altcolor">
         {{- /* Title */ -}}
         <h2 class="single-title animate__animated animate__pulse animate__faster">
             {{- .Params.Title | default (T .Section) | default .Section | dict "Some" | T "allSome" -}}

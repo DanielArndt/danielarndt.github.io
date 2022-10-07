@@ -1,4 +1,5 @@
 ---
 title: "Technology"
 ---
-Things about technology
+
+Anything technology related.
