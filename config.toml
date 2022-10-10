@@ -8,7 +8,7 @@ theme = "LoveIt"
 # default amount of posts in each pages
 paginate = 12
 # google analytics code [UA-XXXXXXXX-X]
-googleAnalytics = "UA-20405483-1"
+googleAnalytics = "G-PRTMB9XQ7D"
 # copyright description used only for seo schema
 copyright = ""
 
@@ -533,7 +533,7 @@ gzip = true
     enable = false
     # Google Analytics
     [params.analytics.google]
-      id = ""
+      id = "G-PRTMB9XQ7D"
       # whether to anonymize IP
       anonymizeIP = true
     # Fathom Analytics
