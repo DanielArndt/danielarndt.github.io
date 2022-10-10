@@ -530,7 +530,7 @@ gzip = true
 
   # Analytics config
   [params.analytics]
-    enable = false
+    enable = true
     # Google Analytics
     [params.analytics.google]
       id = "G-PRTMB9XQ7D"
