@@ -6,7 +6,7 @@ title: "Daniel Arndt"
 #   featured_image: '/images/gohugo-default-sample-hero-image.jpg'
 ---
 
-I am a software developer primarily interested in [open source software](https://opensource.org/).
+I am a software developer primarily interested in [open source software](https://opensource.org/osd).
 
 Outside of my professional career, I enjoy most things related to spending time with nature and animals.
 
