@@ -90,6 +90,14 @@ gzip = true
     name = "Categories"
     url = "/categories/"
     title = ""
+  [[menu.main]]
+    weight = 6
+    identifier = "resume"
+    pre = ""
+    post = ""
+    name = "Resume"
+    url = "/pages/resume"
+    title = ""
 
 [params]
   # site default theme ["auto", "light", "dark"]
