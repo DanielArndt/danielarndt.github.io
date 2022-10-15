@@ -8,6 +8,6 @@ title: "Daniel Arndt"
 
 I am a software developer primarily interested in [open source software](https://opensource.org/osd).
 
-Outside of my professional career, I enjoy most things related to spending time with nature and animals.
+Outside of my professional career, I enjoy most things related to spending time with nature and animals, such as hiking with my dogs.
 
 You can check out my [resume here](/pages/resume).
