@@ -2,12 +2,13 @@
 
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
-    <script src="/copy-to-clipboard.js"></script>
     <head>
+        <script src="/copy-to-clipboard.js" async></script>
+        <link rel="stylesheet" href="/tooltip.css">
+
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
-        <link rel="stylesheet" href="/tooltip.css">
         <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
 
         {{- partial "head/meta.html" . -}}
