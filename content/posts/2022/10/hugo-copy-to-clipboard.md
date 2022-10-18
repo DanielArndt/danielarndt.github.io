@@ -113,9 +113,15 @@ Create the shortcode by creating a file `layouts/shortcodes/copy-to-clipboard.ht
 <span id="{{.Get `id`}}-text">
     {{.Inner}}
 </span>
-<i title="Copy to clipboard" class="fa fa-clipboard" style="cursor:pointer;"
-    onclick="copyToClipboard('{{.Get `id`}}-text')">
-</i>
+<span class="tooltip">
+    <span class="tooltiptext" id="{{.Get `id`}}-tooltip">
+        Copy to clipboard
+    </span>
+    <i class="fa fa-clipboard" style="font-size:12px; cursor:pointer;"
+        onclick="copyToClipboard('{{.Get `id`}}-text', '{{.Get `id`}}-tooltip')"
+        onmouseout="tooltipReset('{{.Get `id`}}-tooltip')">
+    </i>
+</span>
 ```
 
 This is the part that will allow you to wrap any text in a markdown file like so
