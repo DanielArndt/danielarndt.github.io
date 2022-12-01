@@ -19,6 +19,8 @@ The above line is written like this in the markdown.
 Create a copy to clipboard button for {{%/* copy-to-clipboard id="example" */%}}`code like this`{{%/* /copy-to-clipboard */%}}.
 ```
 
+You can see a live example in [this post](posts/2022/10/chrome-brave-browser-wayland-support/).
+
 ## Solution
 
 {{< admonition note >}}
