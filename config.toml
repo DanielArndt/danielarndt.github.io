@@ -617,7 +617,7 @@ gzip = true
 
 # Permalinks config (https://gohugo.io/content-management/urls/#permalinks)
 [Permalinks]
-  posts = ":year/:month/:filename"
+  posts = "posts/:year/:month/:filename"
 
 # Privacy config (https://gohugo.io/about/hugo-and-gdpr/)
 [privacy]
